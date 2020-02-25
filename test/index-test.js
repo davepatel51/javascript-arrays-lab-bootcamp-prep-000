@@ -1,9 +1,9 @@
-describe('Arrays', function() {
+describe('Arrays', function() 
+{
   describe('kittens', function() {
-    it('defines kittens as `var kittens = ["Milo", "Otis", "Garfield"]`', function() {
-      expect(window.kittens).toEqual(["Milo", "Otis", "Garfield"])
-    })
-  })
+    it('defines kittens as `var kittens = ["Milo","Otis", "Garfield"]`',  function() 
+  }
+}
 
   describe('destructivelyAppendKitten(name)', function() {
     it('appends a kitten to the end of the kittens array', function() {
